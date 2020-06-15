@@ -1,6 +1,6 @@
 FROM python:3.8.3-slim-buster
 
-LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
+LABEL maintainer="Arian Molina <linuxcuba@teknik.io>"
 
 RUN apt-get update && apt-get upgrade -y && \
     apt-get install --no-install-recommends -y gcc libgcc-8-dev libc6-dev && \
